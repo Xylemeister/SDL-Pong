@@ -21,6 +21,9 @@ run() {
 
 # Check the first argument and perform the corresponding action
 case "$1" in
+    clean)
+        clean
+        ;;
     *)
         clean
         build
